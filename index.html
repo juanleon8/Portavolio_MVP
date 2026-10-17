@@ -1,0 +1,257 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portafolio MVP</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:wdth,wght@62.5..100,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <header class="header">
+      <nav class="nav">
+        <ul class="nav-lista">
+          <li><a class="nav-enlace" href="#acerca-de">Acerca de</a></li>
+          <li><a class="nav-enlace" href="#proyectos">Proyectos</a></li>
+          <li><a class="nav-enlace" href="#contacto">Contacto</a></li>
+          <li><a class="nav-enlace" href="#marcos">Marcos</a></li>
+        </ul>
+      </nav>
+      <div class="header-contenido">
+        <h1 class="header-titulo">Juan Mondragon</h1>
+        <p class="header-descripcion">
+          Una historia de un desarrollador web y su trabajo.
+        </p>
+        <button class="header-boton">
+          <span class="boton-icono"></span>
+          Mi contacto
+        </button>
+      </div>
+    </header>
+    <main class="main main-contenido">
+      // section 1
+      <section id="proyectos" class="main-seccion">
+        <h2>Mis Proyectos</h2>
+        <div class="proyectos-layout">
+          <div class="proyectos-imagenes">
+            <div class="proyectos-card">
+              <img src="images/Proyect%20around(1).png" alt="Around The U.S. 1" />
+            </div>
+            <div class="proyectos-card">
+              <img src="images/Proyect%20around(2).png" alt="Around The U.S. 2" />
+            </div>
+            <div class="proyectos-card">
+              <img src="images/Proyect%20around(3).png" alt="Around The U.S. 3" />
+            </div>
+          </div>
+          <div class="proyectos-texto">
+            <h3>Around The U.S. — Tarjetas interactivas</h3>
+            <p class="proyectos-intro">
+              ¡Descubre y comparte los lugares más increíbles de Estados
+              Unidos!
+            </p>
+            <h4>Descripción general del proyecto</h4>
+            <p>
+              Aplicación web interactiva donde el usuario puede ver, agregar,
+              eliminar y dar "me gusta" a tarjetas de lugares, además de editar
+              su perfil mediante modales totalmente funcionales. Está
+              construida siguiendo buenas prácticas de HTML, CSS y JavaScript,
+              con manipulación del DOM, clonación de templates y listeners
+              dinámicos.
+            </p>
+            <h4>Características</h4>
+            <ul>
+              <li>Edición de perfil (nombre y descripción) mediante modales.</li>
+              <li>Agregar, eliminar y dar "me gusta" a tarjetas generadas dinámicamente.</li>
+              <li>Vista ampliada de imágenes con su título como caption.</li>
+              <li>Consumo de datos con la Fetch API y manejo de Promises.</li>
+            </ul>
+            <h4>Logros clave</h4>
+            <ul>
+              <li>Manipulación avanzada del DOM con templates y event listeners.</li>
+              <li>Modales totalmente funcionales sin recargar la página.</li>
+              <li>Integración con una API REST desde el servidor.</li>
+            </ul>
+            <h4>Resumen</h4>
+            <p>
+              Este proyecto muestra mi capacidad para construir interfaces
+              interactivas y dinámicas, integrando datos de servidores externos
+              con JavaScript moderno.
+            </p>
+          </div>
+        </div>
+        <div class="proyectos-layout">
+          <div class="proyectos-imagenes">
+            <div class="proyectos-card">
+              <img src="images/Proyect%20gastos.png" alt="Gestor de Gastos" />
+            </div>
+          </div>
+          <div class="proyectos-texto">
+            <h3>Gestor de Gastos Personales</h3>
+            <p class="proyectos-intro">
+              Administra tu presupuesto y controla tus gastos por categorías.
+            </p>
+            <h4>Descripción general del proyecto</h4>
+            <p>
+              Aplicación web desarrollada con JavaScript Vanilla que permite
+              administrar un presupuesto y registrar gastos por categorías.
+              Calcula automáticamente estadísticas financieras y almacena la
+              información localmente para mantener los datos entre sesiones.
+            </p>
+            <h4>Características</h4>
+            <ul>
+              <li>Asignar presupuesto y registrar nuevos gastos.</li>
+              <li>Eliminar gastos individuales y reiniciar la información.</li>
+              <li>Cálculo automático de gastos totales, promedio, saldo y categorías.</li>
+              <li>Persistencia de datos mediante LocalStorage.</li>
+              <li>Actualización dinámica de la interfaz sin recargar la página.</li>
+            </ul>
+            <h4>Logros clave</h4>
+            <ul>
+              <li>Manipulación dinámica del DOM con Templates HTML.</li>
+              <li>Gestión de eventos con Event Listeners y código modular.</li>
+              <li>Algoritmos para el procesamiento de estadísticas financieras.</li>
+            </ul>
+            <h4>Resumen</h4>
+            <p>
+              Este proyecto refleja mi solidez con JavaScript Vanilla: desde la
+              manipulación del DOM hasta la persistencia y el cálculo de datos
+              en tiempo real.
+            </p>
+          </div>
+        </div>
+        <div class="proyectos-layout">
+          <div class="proyectos-imagenes">
+            <div class="proyectos-card">
+              <img src="images/Proyecto%20Mondragon.png" alt="Jesús Mondragón Arquitecto 1" />
+            </div>
+            <div class="proyectos-card">
+              <img src="images/Proyecto%20Mondragon(2).png" alt="Jesús Mondragón Arquitecto 2" />
+            </div>
+            <div class="proyectos-card">
+              <img src="images/Proyecto%20Mondragon(3).png" alt="Jesús Mondragón Arquitecto 3" />
+            </div>
+          </div>
+          <div class="proyectos-texto">
+            <h3>Jesús Mondragón Arquitecto</h3>
+            <p class="proyectos-intro">
+              Sitio web profesional para un despacho de arquitectura moderna.
+            </p>
+            <h4>Descripción general del proyecto</h4>
+            <p>
+              Página web para Jesús Mondragón Arquitecto con diseño
+              arquitectónico moderno y funcional. Presenta proyectos
+              residenciales, comerciales y de remodelación diseñados de
+              principio a fin, junto con un portafolio de proyectos destacados
+              y un formulario para cotizar proyectos.
+            </p>
+            <h4>Características</h4>
+            <ul>
+              <li>Hero y secciones de servicios, proyectos y contacto.</li>
+              <li>Portafolio de proyectos destacados con diseño responsive.</li>
+              <li>Navegación con menú móvil y botones de llamada a la acción.</li>
+              <li>Identidad visual propia: logo, tipografías e imágenes del estudio.</li>
+            </ul>
+            <h4>Logros clave</h4>
+            <ul>
+              <li>Diseño de experiencia de marca para un despacho real.</li>
+              <li>Maquetación responsive de inicio a fin.</li>
+              <li>Recursos visuales propios (logos, imágenes y SVG).</li>
+            </ul>
+            <h4>Resumen</h4>
+            <p>
+              Este proyecto demuestra mi capacidad para crear sitios
+              profesionales orientados a clientes, combinando una identidad
+              visual sólida con una estructura clara y responsive.
+            </p>
+          </div>
+        </div>
+      </section>
+      // section 2
+      <section id="marcos" class="main-seccion">
+        <h2>Tecnologías</h2>
+        <div id="menu-container" class="infinite-menu is-hidden">
+          <canvas id="menu-canvas"></canvas>
+          <h3 id="menu-title" class="menu-title menu-overlay"></h3>
+          <p id="menu-desc" class="menu-desc menu-overlay"></p>
+          <button id="menu-button" class="menu-button menu-overlay" type="button" aria-label="Abrir proyecto">
+            &#x2197;
+          </button>
+        </div>
+      </section>
+      // section 3
+      <section id="acerca-de" class="main-seccion">
+        <h2>Acerca de mí</h2>
+        <div class="main-grid">
+          <div class="glass-card glass-card--full">
+            <div class="about-imagen">
+              <img src="images/image0.png" alt="Juan Mondragón" />
+            </div>
+            <div class="about-texto">
+              <p>
+                <span class="saludo">Hola, soy</span>
+                <span class="nombre-destacado"
+                  >Juan León Mondragón Palacios</span
+                >.
+              </p>
+              <p>
+                Soy un desarrollador web dedicado, con una gran pasión por
+                crear, aprender e implementar sitios web dinámicos y modernos.
+                Disfruto adquirir nuevos conocimientos, mejorar continuamente
+                mis habilidades y aplicar las mejores prácticas para desarrollar
+                soluciones funcionales y atractivas.
+              </p>
+              <p>
+                En este sitio encontrarás una muestra de algunos de mis
+                proyectos recientes, junto con las tecnologías, lenguajes y
+                herramientas con las que trabajo. Cada proyecto representa una
+                oportunidad para seguir aprendiendo, e nfrentar nuevos desafíos
+                y fortalecer mi experiencia como desarrollador.
+              </p>
+              <p>
+                Siempre estoy entusiasmado por colaborar en proyectos
+                innovadores y asumir nuevos retos que me permitan crecer
+                profesionalmente. Si deseas conectar conmigo, compartir ideas o
+                explorar oportunidades para trabajar juntos, no dudes en ponerte
+                en contacto. ¡Me encantará saber de ti!
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      //section 4
+      <section id="contacto" class="main-seccion">
+        <h2>Póngase en Contacto</h2>
+        <div class="glass-card">
+          <p>
+            ¿Tienes un proyecto en mente, una oportunidad laboral o simplemente
+            quieres conectar? Estaré encantado de conocer tus ideas y conversar
+            sobre cómo puedo aportar valor.
+          </p>
+          <a href="mailto:juan.mondragon@ilb.edu.mx" class="header-boton">
+            <span class="boton-icono"></span>
+            Contactame
+          </a>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <p>&copy; 2026 - Footer verde</p>
+    </footer>
+
+    <div id="lightbox" class="lightbox">
+      <button id="lightbox-close" class="lightbox-close" type="button" aria-label="Cerrar">
+        &times;
+      </button>
+      <img id="lightbox-img" class="lightbox-img" src="" alt="" />
+    </div>
+
+    <script src="https://unpkg.com/gl-matrix@3.4.3/gl-matrix.js"></script>
+    <script src="script/section.js"></script>
+  </body>
+</html>

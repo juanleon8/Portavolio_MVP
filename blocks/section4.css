@@ -1,0 +1,55 @@
+.main-seccion:last-of-type .glass-card {
+  width: 100%;
+  max-width: 700px;
+  height: auto;
+  padding: 2.5rem 0;
+  flex-direction: column;
+  gap: 0.5rem;
+  text-align: left;
+  align-items: flex-start;
+  background: none;
+  backdrop-filter: none;
+  -webkit-backdrop-filter: none;
+  border: none;
+  box-shadow: none;
+  font-family: 'Noto Sans', sans-serif;
+  font-optical-sizing: auto;
+  font-variation-settings: 'wdth' 100;
+}
+
+.main-seccion:last-of-type .header-boton {
+  text-decoration: none;
+  text-align: center;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Noto Sans', sans-serif;
+  font-optical-sizing: auto;
+  font-variation-settings: 'wdth' 100;
+}
+
+.main-seccion:last-of-type .header-boton::before {
+  display: none;
+}
+
+.main-seccion:last-of-type .glass-card p {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  color: #e0e0e0;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+  .main-seccion:last-of-type .glass-card {
+    padding: 2rem 0;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .main-seccion:last-of-type .glass-card {
+    padding: 1.5rem 0;
+  }
+
+  .main-seccion:last-of-type .glass-card p {
+    font-size: 1rem;
+  }
+}
